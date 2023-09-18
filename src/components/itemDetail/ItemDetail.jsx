@@ -29,7 +29,7 @@ function ItemDetail ({ id, title, image, categoryId, description, price, stock }
             <p className='price-detail'>Precio: ${price}</p>
             {
                 quantity > 0 ? (
-                    <Link to='/cart' className='btn-cart-3'>Terminar Compra</Link>
+                    <Link to='/cart' className='btn-cart-2'>Terminar Compra</Link>
                 ) : (
                     <ItemCount initial={1} stock={stock} onAdd={handleOnAdd}/>
                 )

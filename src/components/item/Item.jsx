@@ -5,11 +5,11 @@ function Item ({ id, title, image, price, stock }) {
         <article className='card'>
             <h4 className='name-card'>{title}</h4>
             <img src={image} alt={title} className='img-card'/>
-            <p className='price-card'>${price}</p>
+            <p className='price-card'>Precio: ${price}</p>
             <p className='stock-card'> Stock disponible: {stock}</p>
         <section className='section-btn-card'>
             <Link to={`/item/${id}`}>
-                <button className='btn-card'>Ver más</button>
+                <button className='myButton'>Ver más</button>
             </Link>
         </section>
         </article>

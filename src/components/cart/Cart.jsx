@@ -10,7 +10,7 @@ function Cart () {
         return (
             <section>
                 <h1 className='h1-cart'>No hay productos en el carrito</h1>
-                <Link to='/' className='btn-cart-3'>Listado de Productos</Link>
+                <Link to='/' className='myButton-3'>Listado de Productos</Link>
             </section>
         )
     }
@@ -19,8 +19,8 @@ function Cart () {
         <section className='section-cart-widget'>
             { cart.map(prod => <CartItem key={prod.id} {...prod}/>)}
             <h2 className='total-price'> Total: $<p>{totalPrice()}</p></h2>
-            <button className='btn-card' onClick={() => clearCart()}>Vaciar carrito</button>
-            <Link to='/checkout' className='btn-cart-3'>Checkout</Link>
+            <button className='myButton-5' onClick={() => clearCart()}>Vaciar carrito</button>
+            <Link to='/checkout' className='myButton-5'>Checkout</Link>
         </section>
     )
 }   

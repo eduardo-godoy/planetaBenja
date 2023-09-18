@@ -10,6 +10,7 @@ function CheckoutForm ({ onConfirm }) {
         
         if(name === '' && phone === '' && email === '' ){
             e.preventDefault()
+            alert('Por favor completar datos solicitados')
         }else{
             const userData = {
                 name, phone, email
@@ -30,9 +31,9 @@ function CheckoutForm ({ onConfirm }) {
             <label className='label'>Email
             <input className='input' type='email' value={email} onChange={({target}) => setEmail(target.value)}/>
             </label>
-            <button type='submit' className='btn-cart-input'>Crear orden</button>
+            <button type='submit' className='myButton-2'>Crear orden</button>
         </form>
     )
 }
-
+ 
 export default CheckoutForm

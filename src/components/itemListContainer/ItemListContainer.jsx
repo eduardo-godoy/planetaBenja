@@ -35,7 +35,7 @@ function ItemlistContainer () {
 
     return(
         <>
-        { id ? (<h1 className='loading'>{id}</h1>) : (<h1 className='loading'>Nuestros Productos</h1>)}
+        { id ? (<h1 className='h1-itemListContainer'>{id}</h1>) : (<h1 className='h1-itemListContainer'>Nuestros Productos</h1>)}
         { loading  ? (<h1 className='loading'>Cargando...</h1>) : (<ItemList products={products} />)}
         </>
     )

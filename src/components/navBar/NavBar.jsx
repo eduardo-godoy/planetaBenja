@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom'
 
 function NavBar () {
     return(    
+        <div className='header2'>
         <header className='header'>
             <Link to='/' className='link-header'>
-            <img src={Logo} className='logo-header' alt='logo'/><p className='titulo-header'>Planeta Benja</p>
+            <img src={Logo} className='logo-header' alt='logo'/>
             </Link>
             <nav className='nav-bar'>
             <li className='navbar-list'>
@@ -17,6 +18,7 @@ function NavBar () {
             <CartWidget/>
             </nav>
         </header>
+        </div>
     )
 }
 

@@ -65,11 +65,11 @@ function Checkout () {
 }
 
 if(loading){
-    return <h1>Se esta generando su pedido...</h1>
+    return <h1 className='loading'>Se esta generando su pedido...</h1>
 }
 
 if(orderId){
-    return <h1>EL id de su orden es: {orderId}</h1>
+    return <h1 className='loading'>EL id de su orden es: {orderId}</h1>
 }
     
     return (

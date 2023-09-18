@@ -20,7 +20,7 @@ function App () {
         <Route path='/item/:itemId' element={ <ItemDetailContainer/> } />
         <Route path='/cart' element={ <Cart/> } />
         <Route path='/checkout' element={ <Checkout/> } />
-        <Route path='*' element={ <h1 className='loading'>ERROR 404 PAGE NOT FOUND</h1> } />
+        <Route path='*' element={ <h1 className='h1-not-found'>ERROR 404 PAGE NOT FOUND</h1> } />
       </Routes>
       </CartProvider>
     </BrowserRouter>

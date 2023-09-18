@@ -206,7 +206,6 @@
     margin-left: 35%;
 }
 
-
 .btn-cart:hover{
 	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
 	background-color:#0688fa;
@@ -267,7 +266,7 @@
     align-items: center;
 }
 
-.myButton {
+.myButton{
 	box-shadow: 0px 1px 0px 0px #f0f7fa;
 	background:linear-gradient(to right, #33bdef 5%, #019ad2 100%);
 	background-color:#0E77E6;
@@ -284,17 +283,17 @@
     margin: 5% 0px 10% 0px;
 }
 
-.myButton:hover {
+.myButton:hover{
 	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
 	background-color:#019ad2;
 }
 
-.myButton:active {
+.myButton:active{
 	position:relative;
 	top:1px;
 }
 
-.myButton-2 {
+.myButton-2{
 	box-shadow: 0px 1px 0px 0px #f0f7fa;
 	background:linear-gradient(to right, #33bdef 5%, #019ad2 100%);
 	background-color:#0E77E6;
@@ -311,17 +310,17 @@
     margin: 2% 0% 0% 35%;
 }
 
-.myButton-2:hover {
+.myButton-2:hover{
 	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
 	background-color:#019ad2;
 }
 
-.myButton-2:active {
+.myButton-2:active{
 	position:relative;
 	top:1px;
 }
 
-.myButton-3 {
+.myButton-3{
 	box-shadow: 0px 1px 0px 0px #f0f7fa;
 	background:linear-gradient(to right, #33bdef 5%, #019ad2 100%);
 	background-color:#0E77E6;
@@ -340,17 +339,17 @@
     margin: 2% 0% 0% 40%;
 }
 
-.myButton-3:hover {
+.myButton-3:hover{
 	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
 	background-color:#019ad2;
 }
 
-.myButton-3:active {
+.myButton-3:active{
 	position:relative;
 	top:1px;
 }
 
-.myButton-4 {
+.myButton-4{
 	box-shadow: 0px 1px 0px 0px #f0f7fa;
 	background:linear-gradient(to right, #33bdef 5%, #019ad2 100%);
 	background-color:#0E77E6;
@@ -370,17 +369,17 @@
     justify-self: center;
 }
 
-.myButton-4:hover {
+.myButton-4:hover{
 	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
 	background-color:#019ad2;
 }
 
-.myButton-4:active {
+.myButton-4:active{
 	position:relative;
 	top:1px;
 }
 
-.myButton-5 {
+.myButton-5{
 	box-shadow: 0px 1px 0px 0px #f0f7fa;
 	background:linear-gradient(to right, #33bdef 5%, #019ad2 100%);
 	background-color:#0E77E6;
@@ -402,12 +401,12 @@
     margin: 15px 0px 15px;
 }
 
-.myButton-5:hover {
+.myButton-5:hover{
 	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
 	background-color:#019ad2;
 }
 
-.myButton-5:active {
+.myButton-5:active{
 	position:relative;
 	top:1px;
 }
@@ -509,7 +508,7 @@
     margin-left: 25%;
 }
 
-.loading {
+.loading{
     text-align: center;
     margin-top: 20px;
     margin-bottom: -20px;
@@ -517,7 +516,7 @@
     text-transform: uppercase;
 }
 
-.h1-cart {
+.h1-cart{
     color:#0E77E6;
     text-align: center;
     font-size: 40px;
@@ -558,7 +557,7 @@
     font-weight: bold;
 }
 
-.price-card-2 {
+.price-card-2{
     font-weight: bold;
     color:black;
     text-align: left;
@@ -567,7 +566,7 @@
     margin: 5px 0px 10px 10%;
 }
 
-.quantity-card-2 {
+.quantity-card-2{
     font-weight: bold;
     color:black;
     text-align: left;
@@ -576,7 +575,7 @@
     margin: 5px 0px 10px 10%;
 }
 
-.quantity-card-3 {
+.quantity-card-3{
     font-weight: bold;
     color:black;
     text-align: left;
@@ -585,7 +584,7 @@
     margin: 5px 0px 10px 10%;
 }
 
-.total-price {
+.total-price{
     text-align: center;
     display: flex;
     justify-content: center;

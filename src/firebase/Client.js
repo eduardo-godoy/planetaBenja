@@ -14,5 +14,5 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig)
 export const db = getFirestore(app)
-export const auth = getAuth(REACT_APP_apiKey)
+export const auth = getAuth('AIzaSyCcSn9jfk-8rEiBwGpUUhEgog3o_btCeHU')
 export const storage = getStorage()
